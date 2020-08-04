@@ -1,0 +1,58 @@
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+}
+
+.screen, .screen2{
+    background-color: black;
+    height: 20px;
+    width: 220px;
+    margin: auto;
+    color: white;
+    text-align: right;
+    font-size: xxx-large;
+    padding: 0px 30px 35px 30px;
+
+}
+
+.num, .operator, .op{
+    background-color: rgba(170, 170, 170, 0.4);
+    border: 1px solid black;
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
+}
+
+.keys {
+    display: grid;
+    grid-template-columns: 70px 70px 70px 70px;
+    text-align: center;
+    margin: auto;
+    width: 280px;
+    
+}
+
+.operator{
+    background-color: rgb(167, 122, 9);
+    color: white;
+}
+
+.keys button, .screen{
+    transition: all 2s ease;
+}
+
+/* .zero{
+    grid-column-start: 1;
+    grid-column-end: 3;
+    text-align: left;
+} */
+
+.operator:hover{
+    background-color: rgb(51, 36, 9);
+    cursor: pointer;
+}
+
+.num:hover, .op:hover{
+    background-color: rgb(177, 177, 177);
+    cursor: pointer;
+}
